@@ -4,3 +4,6 @@ python:
   - "3.6"
 
 script: python3 -m unittest
+
+after_success:
+  - coveralls

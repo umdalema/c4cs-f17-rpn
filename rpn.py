@@ -2,8 +2,6 @@
 
 import operator
 
-// breaking on purpose
-
 operators = {
     '+': operator.add,
     '-': operator.sub,

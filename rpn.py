@@ -4,7 +4,6 @@ import operator
 # highligting. 
 from termcolor import colored
 
-
 operators = {
     '+': operator.add,
     '-': operator.sub,

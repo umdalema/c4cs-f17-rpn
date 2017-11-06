@@ -5,8 +5,11 @@ python:
 
 install:
   - pip install termcolor
+  - pip install coveralls
 
-script: python3 -m unittest
+script:
+  - python3 -m unittest
+  - coverage run -m unittest
 
 after_success:
   - coveralls
